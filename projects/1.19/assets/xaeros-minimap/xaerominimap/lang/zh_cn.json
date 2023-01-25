@@ -1,0 +1,9 @@
+{
+  "_cfpa.comment": "官译补丁，仅含缺少部分，若官译更新请删除本文件",
+	"gui.xaero_zoom_on_enlarge" : "放大时缩放级别",
+	"gui.xaero_zoom_on_enlarge_auto" : "自动",
+	"gui.xaero_sort_color" : "颜色",
+	"gui.xaero_weather_display" : "显示天气信息",
+	"gui.xaero_weather_raining" : "雨/雪",
+	"gui.xaero_weather_thundering" : "雷暴"
+}
