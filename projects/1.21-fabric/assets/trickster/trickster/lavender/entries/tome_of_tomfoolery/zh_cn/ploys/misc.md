@@ -4,11 +4,9 @@
   "icon": "minecraft:iron_ingot",
   "category": "trickster:ploys",
   "additional_search_terms": [
-    "挂起之技巧",
     "天钉之技巧",
     "清晰之技巧",
-    "混淆之技巧",
-    "行刑者之技巧"
+    "混淆之技巧"
   ]
 }
 ```
@@ -17,21 +15,11 @@
 
 ;;;;;
 
-<|glyph@trickster:templates|trick-id=trickster:delay_execution,title=挂起之技巧|>
-
-[number] -> number
-
----
-
-将当前法术的执行延迟所给数刻，未指定则延迟一刻。返回延迟量。
-
-;;;;;
-
 <|glyph@trickster:templates|trick-id=trickster:pin_chunk,title=天钉之技巧|>
 
 vector -> vector
 
-<|cost-rule@trickster:templates|formula=4 kG|>
+<|cost-rule@trickster:templates|formula=4kG|>
 
 将包含所给位置的区块完全加载4秒。
 
@@ -68,13 +56,3 @@ number -> number
 ---
 
 立即清除施法者屏幕中标识符为所给数的条栏。
-
-;;;;;
-
-<|glyph@trickster:templates|trick-id=trickster:kill_thread,title=行刑者之技巧|>
-
-[number] -> boolean
-
----
-
-终止所给法术槽中的法术，若未指定法术槽则终止当前法术。根据成功与否返回布尔值。
