@@ -17,10 +17,6 @@ blocks to be part of an ME network to operate. It adds a suite of utilities.
 
 ---
 
-# [Data Variables Tutorial](crazyguide/data_variables.md)
-
----
-
 # AE2 with chanced recipes? see [Impulsed Pattern Provider](crazyguide/impulsed_pattern_provider.md)
 
 ---
@@ -38,10 +34,6 @@ blocks to be part of an ME network to operate. It adds a suite of utilities.
 ## Energy and Item Transfer
 
 <CategoryIndex category="Energy and Item Transfer"></CategoryIndex>
-
-## Data Variables
-
-<CategoryIndex category="Data Variables"></CategoryIndex>
 
 ## Mob Storage
 
