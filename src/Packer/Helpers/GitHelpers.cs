@@ -42,7 +42,7 @@ namespace Packer.Helpers
 
         internal static string ExtractModIdentifier(this string location, string version)
             => location.NormalizePath()
-                       .Split(Path.DirectorySeparatorChar)[2];
+                       .Split('/')[2];
 
     }
 }
